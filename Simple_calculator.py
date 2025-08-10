@@ -1,6 +1,6 @@
 def calculator():
     num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
 
     operation = input("Enter the operation ")
 
@@ -28,4 +28,5 @@ def calculator():
         print("Invalid operation.  please choose from +,-,* and /")
 
 calculator()
+
     
