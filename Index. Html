@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Box Model Demo</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home </a></li>           
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact </a></li>                  
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <h2>Container Section</h2>
+            <p>This section demonstrates the CSS Box Model with margin, padding, and borders.</p>
+            <button>Click Me</button>
+        </section>
+        <section class="card-section">
+            <h2>Card Section</h2>
+            <div class="card">
+                <h3>Card Title</h3>
+                <p>This is a card with some content.</p>
+            </div>
+            <div class="card">
+                <h3>Another Card</h3>
+                <p>This is another card with some more content.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
